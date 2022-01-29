@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 5px;
+    padding: 10px;
+}
+body{
+    background-image: url("/images/#hero-cover.3.png");
+}
+h1{
+    font-size: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    position: relative;
+    padding-top: 15px;
+}
+
+
