@@ -1,27 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 *{
-    margin: 20px;
+    margin: 0px;
     padding: 0px;
 }
-li{
-    font-size: 20px;
+header{
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1.1;
+    height: 100vh;
+}
+ul{
+    font-size: 30px;
     padding-left: 20px;
+    padding-top: 20px;
 }
 ul li{
     list-style: none;
     display: inline;
     position: relative;
-    padding-top: 15px;
+    margin: 20px;
+    padding: 50px;
+    color: white;
 }
-.topnav{
-    background-image: url("/images/background.png");
-    background-size: 1500px 500px;
-    background-repeat: no-repeat;
-    background-color: #252B42;
-    opacity: 1.0;
+ul li a{
+    text-decoration: none;
+    color: white;
 }
-.heading{
-padding-left: 50px;
+#button1{
+    background-color: #23A6F0;
+    padding: 20px;
+    border: none;
+    font-size: 10px;
+    color: white;
 }
+#button1 #arrow{
+    width: 300px;
+    font-size: 100px;
+}
+h1{
+    color: white;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 50px;
+}
+header>.heading>.slogan>p{
+text-align: center;
+color: white;
+font-size: 20px;
+margin-top: 25px;
+}
+header>.heading>.slogan>.buttons{  
+    padding-left: 800px;
+    margin-top: 50px;
     
+}
+#button2{
+    background-color: #23A6F0;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
 
