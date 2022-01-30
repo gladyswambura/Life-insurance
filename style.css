@@ -161,7 +161,9 @@ margin-top: -80px;
 }
 .FREE{
     border: 2px solid #23A6F0;
-    width: 200px;
+    border-radius: 2%;
+    width: 150px;
+    height: 400px;
     padding: 50px;
 }
 .paragraph1{
@@ -180,7 +182,10 @@ ul li{
 }
 .STANDARD{ 
     border: 2px solid #23A6F0;
-    width: 200px;
+    border-radius: 2%;
+    width: 150px;
+    height: 430px;
+    margin-top: -30px;
     padding: 50px;
     background-color: #252B42;
 }
@@ -200,7 +205,9 @@ ul li{
 }
 .PREMIUM{
     border: 2px solid #23A6F0;
-    width: 200px;
+    border-radius: 3%;
+    width: 150px;
+    height: 400px;
     padding: 50px;
 }
 .paragraph3{
