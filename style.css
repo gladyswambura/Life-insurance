@@ -107,4 +107,34 @@ margin-top: -80px;
 }
 .heading2{
     padding-top: 200px;
+    text-align: center;
+}
+.sect{
+    display: inline-flex;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.sect1{
+    box-shadow: 2px 2px 3px 2px rgb(199, 189, 189);
+    width: 300px;
+  border: none;
+  padding: 50px;
+  margin-left: 20px;
+  text-align: center;
+}
+.sect2{
+    box-shadow: 2px 2px 3px 2px rgb(199, 189, 189);
+    width: 300px;
+  border: none;
+  padding: 50px;
+  margin-left: 100px;
+  text-align: center;
+}
+.sect3{
+    box-shadow: 2px 2px 3px 2px rgb(199, 189, 189);
+    width: 300px;
+  border: none;
+  padding: 50px;
+  margin-left: 100px;
+  text-align: center;
 }
