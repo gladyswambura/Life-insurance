@@ -147,11 +147,15 @@ margin-top: -80px;
 }
 .textbox{
     text-align: center;
-    padding-top: 100px;
+    padding: 50px;
+    border: 1px solid purple;
+    margin: 250px;
+    margin-top: 150px;
+    background-color: rebeccapurple;
 }
 .heading3{
     text-align: center;
-    padding-top: 180px;
+    padding-top: 5px;
 }
 .payments{
     padding-top: 100px;
@@ -173,8 +177,9 @@ margin-top: -80px;
 color: #23A6F0;
 padding-top: 20px;
 }
-ul li{
-    
+.list1{
+    padding-top: 20px;
+    color: none;
 }
 
 .button4{
@@ -224,12 +229,19 @@ ul li{
 .button6{
     padding-top: 20px;
 }
-.secton6{
+.section6{
 background-color: #252B42;
-display: inline-flex;
-padding-top: 20px;
+padding: 50px;
 margin-left: 50px;
+width: 1400px;
+height: 700px;
 }
-.heading4 .paragraaph4{
-padding: 20px;
+.heading4{
+padding: 100px;
+color: white;
+}
+.clouds{
+    float: right;
+   padding-top: 20px;
+
 }
