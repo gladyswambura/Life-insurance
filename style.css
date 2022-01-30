@@ -4,7 +4,7 @@
     padding: 0px;
 }
 header{
-    background-image: url("/images/background.png");
+    background-image: url("./images/background.png";
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.1;
@@ -263,7 +263,7 @@ color: white;
     align-items: center;
     display: flex;
 }
-/button7{
+.button7{
     background-color: #23A6F0;
     color: white;
     float: right;
