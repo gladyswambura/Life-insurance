@@ -243,5 +243,9 @@ color: white;
 .clouds{
     float: right;
    padding-top: 20px;
-
+}
+.section7{
+    display: flex;
+    padding-left: 500px;
+    margin: -100px;
 }
