@@ -155,6 +155,66 @@ margin-top: -80px;
 }
 .payments{
     padding-top: 100px;
+    padding-left: 400px;
     display: flex;
-    padding-left: 500px;
+    margin-left: 50px;
 }
+.FREE{
+    border: 2px solid #23A6F0;
+    width: 200px;
+    padding: 50px;
+}
+.paragraph1{
+    padding-top: 20px;
+}
+.zero{
+color: #23A6F0;
+padding-top: 20px;
+}
+ul li{
+    
+}
+
+.button4{
+    padding-top: 20px;
+}
+.STANDARD{ 
+    border: 2px solid #23A6F0;
+    width: 200px;
+    padding: 50px;
+    background-color: #252B42;
+}
+.paragraph2{
+    padding-top: 20px;
+}
+.nine{
+color: #23A6F0;
+padding-top: 20px;
+}
+ul li{
+    
+}
+
+.button5{
+    padding-top: 20px;
+}
+.PREMIUM{
+    border: 2px solid #23A6F0;
+    width: 200px;
+    padding: 50px;
+}
+.paragraph3{
+    padding-top: 20px;
+}
+.ninety{
+color: #23A6F0;
+padding-top: 20px;
+}
+ul li{
+    
+}
+
+.button6{
+    padding-top: 20px;
+}
+
