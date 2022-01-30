@@ -138,3 +138,11 @@ margin-top: -80px;
   margin-left: 100px;
   text-align: center;
 }
+.images{
+    padding-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
