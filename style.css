@@ -143,6 +143,13 @@ margin-top: -80px;
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
-    padding-right: 150px;
-    
+    padding-right: 150px; 
+}
+.textbox{
+    text-align: center;
+    padding-top: 100px;
+}
+.heading3{
+    text-align: center;
+    padding-top: 180px;
 }
