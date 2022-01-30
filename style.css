@@ -14,6 +14,7 @@ ul{
     font-size: 30px;
     padding-left: 20px;
     padding-top: 20px;
+    position: fixed;
 }
 ul li{
     list-style: none;
@@ -29,14 +30,10 @@ ul li a{
 }
 #button1{
     background-color: #23A6F0;
-    padding: 20px;
+    padding: 15px;
     border: none;
     font-size: 10px;
     color: white;
-}
-#button1 #arrow{
-    width: 300px;
-    font-size: 100px;
 }
 h1{
     color: white;
@@ -62,4 +59,49 @@ header>.heading>.slogan>.buttons{
     border-radius: 30px;
     margin-right: 10px;
 }
-
+#button3{
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: none;
+}
+.sections{
+display: inline-flex;
+padding-left: 350px;
+margin-top: -80px;
+}
+.section1{
+    width: 200px;
+  border: none;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+}
+.section2{
+    width: 200px;
+  border: none;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+}
+.section3{
+    width: 200px;
+  border: none;
+  padding: 50px;
+  margin: 20px;
+  background-color: #23A6F0;
+}
+.sec{
+    display: inline-flex;
+    padding-top: 200px;
+}
+.sec1{
+    padding-left: 400px;
+}
+.sec2{
+    padding-left: 200px;
+}
+.sec3{
+    padding-left: 200px;
+}
