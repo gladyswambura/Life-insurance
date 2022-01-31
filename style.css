@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 *{
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 header{
-    background-image: url("../images/background.png");
+    position: relative;
+    background-image: url(./images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1.1;
+    background-position: top center;
+    /* opacity: 0.4; */
     height: 100vh;
+    width: 100%;
 }
 ul{
     font-size: 30px;
@@ -179,7 +183,7 @@ float: right;
 .FREE{
     border: 2px solid #23A6F0;
     border-radius: 2%;
-    width: 150px;
+    width: 200px;
     height: 400px;
     padding: 50px;
 }
@@ -192,7 +196,7 @@ padding-top: 20px;
 }
 .list1{
     padding-top: 20px;
-    color: none;
+    text-decoration: none;
 }
 
 .button4{
@@ -201,7 +205,7 @@ padding-top: 20px;
 .STANDARD{ 
     border: 2px solid #23A6F0;
     border-radius: 2%;
-    width: 150px;
+    width: 200px;
     height: 430px;
     margin-top: -30px;
     padding: 50px;
@@ -220,7 +224,7 @@ padding-top: 20px;
 .PREMIUM{
     border: 2px solid #23A6F0;
     border-radius: 3%;
-    width: 150px;
+    width: 200px;
     height: 400px;
     padding: 50px;
 }
@@ -304,16 +308,56 @@ font-size: 35px;
     padding: 10px;
 }
 .abouts{
-    display: flex;
-    flex-direction: column;
+    display: inline flex;
+    flex-direction: row;
     text-decoration: none;
 list-style: none;
 justify-content: center;
 font-size: 20px;
 padding-top: 50px;
 }
+.abouts1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px;
+}
+.abouts2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px;
+}
+.abouts3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px;
+}
+.abouts4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px;
+}
+.abouts5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px;
+}
+
+
+
 .last{
     justify-content: center;
-    padding-top: 20px;
+    padding: 30px;
     font-size: 20px;
+
+
 }
