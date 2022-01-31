@@ -4,7 +4,7 @@
     padding: 0px;
 }
 header{
-    background-image: url("./images/background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.1;
@@ -263,4 +263,9 @@ color: white;
     background-color: #23A6F0;
     color: white;
     float: right;
+}
+.abouts{
+    display: flex;
+    text-decoration: none;
+
 }
