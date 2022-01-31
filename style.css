@@ -4,7 +4,7 @@
     padding: 0px;
 }
 header{
-    background-image: url("./images/background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.1;
@@ -242,6 +242,7 @@ ul li{
 background-color: #252B42;
 background-size: cover;
 padding-top: 50px;
+margin-top: 150px;
 margin-left: 150px;
 width: 1400px;
 height: 700px;
@@ -263,10 +264,10 @@ font-size: 35px;
 }
 .section7{
     display: flex;
-    padding-left: 500px;
-    margin: -100px;
+    padding-left: 700px;
+    margin: -200px;
   height: 500px;
-  width: 1200px;
+  width: 1500px;
 }
 .form{
    padding-left: 50px;
@@ -274,14 +275,26 @@ font-size: 35px;
     background-color: white;
     width: 400px;
     font-size: 20px;
+    height: 500px;
+    padding-top: 50px;
 }
 .fill{
-    padding-left: 30px;
+  float: left;
     justify-content: space-between;
+}
+.appointment{
+    background-color: #23A6F0;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+    width: 300px;
+   text-align: center;
 }
 .consult{
     justify-content: center;
     display: flex;
+    padding-top: 250px;
 }
 .button7{
     background-color: #23A6F0;
@@ -292,6 +305,7 @@ font-size: 35px;
 }
 .abouts{
     display: flex;
+    flex-direction: column;
     text-decoration: none;
 list-style: none;
 justify-content: center;
