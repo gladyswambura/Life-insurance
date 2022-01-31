@@ -157,6 +157,7 @@ margin-top: -80px;
     margin: 250px;
     margin-top: 150px;
     background-color: rgb(55, 55, 155);
+    justify-content: space-between;
 }
 .textbox .news> h3{
     color: white;
@@ -167,7 +168,7 @@ float: right;
 }
 .heading3{
     text-align: center;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 .payments{
     padding-top: 100px;
@@ -264,7 +265,8 @@ font-size: 35px;
     display: flex;
     padding-left: 500px;
     margin: -100px;
-  height: fit-content;
+  height: 500px;
+  width: 1200px;
 }
 .form{
    padding-left: 50px;
