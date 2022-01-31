@@ -4,7 +4,7 @@
     padding: 0px;
 }
 header{
-    background-image: url("./images/background.png";
+    background-image: url("./images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.1;
@@ -201,10 +201,6 @@ padding-top: 20px;
 color: #23A6F0;
 padding-top: 20px;
 }
-ul li{
-    
-}
-
 .button5{
     padding-top: 20px;
 }
