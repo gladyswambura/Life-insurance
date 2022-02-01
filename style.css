@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@media (min-width:576px){
+    .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 576px or smaller */
+    }
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 header{
     background-image: url(./images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.4;
     height: 100vh;
 }
 ul{
@@ -30,7 +35,7 @@ ul li a{
     font-size: 20px;
 }
 ul li .login{
-    padding-left: 200px;
+    padding-left: 20px;
 }
 #button1{
     background-color: #23A6F0;
@@ -67,57 +72,77 @@ header>.heading>.slogan>.buttons{
 }
 #button3{
     padding: 12px;
-    border: none;
+    color: white;
+    border: 2px solid;
     width: 150px;
     border-radius: 30px;
     margin-right: 10px;
-    background-color: none;
+    background-color: #838c8f00;
 }
 .sections{
 display: inline-flex;
-padding-left: 350px;
-margin-top: -80px;
+padding-left: 400px;
+margin-top: -60px;
 }
 .section1{
-    width: 200px;
-  border: none;
-  padding: 50px;
+    width: 300px;
+    height: 200px;
+  border: 2px solid white;
+  padding: 20px;
   margin: 20px;
-  background-color: white;
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section1>img{
+  margin-left: -50px;
+  margin-left: -20px;
+    width: 100px;
 }
 .section2{
-    width: 200px;
-  border: none;
-  padding: 50px;
+    width: 300px;
+    height: 200px;
+  padding: 20px;
   margin: 20px;
-  background-color: white;
+  background: white;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.section2>img{
+    margin-left: -50px;
+    margin-left: -20px;
+    width: 100px;
+  }
 .section3{
-    width: 200px;
-  border: none;
-  padding: 50px;
+    width: 300px;
+    height: 200px;
+  padding: 20px;
   margin: 20px;
-  background-color: #23A6F0;
+  background: #23A6F0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.section3 .img{
-    color:#23A6F0 ;
-    background-color: #23A6F0;
-}
+.section3>img{
+    margin-left: -20px;
+    width: 80px;
+    height: 60px;
+  }
 .sec{
     display: flex;
     padding-top: 200px;
 }
 .sec1{
-    padding-left: 400px;
+    padding-left: 450px;
     text-align: center;
 }
 .sec2{
-    padding-left: 160px;
+    padding-left: 100px;
     text-align: center;
 }
 .sec3{
-    padding-left: 160px;
+    padding-left: 100px;
     text-align: center;
+}
+.sec3> img{
+width: 200px;
+height: 130px;
 }
 .heading2{
     padding-top: 200px;
@@ -132,28 +157,28 @@ margin-top: -80px;
 .sect{
     display: inline-flex;
     padding-top: 200px;
-    padding-left: 200px;
+    padding-left: 250px;
 }
 .sect1{
-    box-shadow: 2px 2px 3px 2px rgb(199, 189, 189);
-    width: 300px;
-  border: none;
+    width: 400px;
+    height: 680px;
+    border: 1px solid rgb(199, 189, 189);
   padding: 50px;
   margin-left: 20px;
   text-align: center;
 }
 .sect2{
-    box-shadow: 2px 2px 3px 2px rgb(199, 189, 189);
-    width: 300px;
-  border: none;
+    width: 400px;
+    height: 680px;
+  border: 1px solid rgb(199, 189, 189);
   padding: 50px;
   margin-left: 100px;
   text-align: center;
 }
 .sect3{
-    box-shadow: 2px 2px 3px 2px rgb(199, 189, 189);
-    width: 300px;
-  border: none;
+    width: 400px;
+    height: 680px;
+    border: 1px solid rgb(199, 189, 189);
   padding: 50px;
   margin-left: 100px;
   text-align: center;
@@ -162,14 +187,15 @@ margin-top: -80px;
     padding-top: 400px;
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px; 
+    padding-left: 170px;
+    padding-right: 170px; 
 }
 .textbox{
     display: flex;
-    padding: 45px;
+    flex-direction: row;
+    padding: 20px;
     background-image: linear-gradient(to right,rgb(56, 56, 153),rgb(179, 49, 114));
-    margin: 250px;
+    margin: 200px;
     margin-top: 150px;
     background-color: rgb(55, 55, 155);
    
@@ -181,9 +207,9 @@ padding-left: 20px;
 }
 .textbox .f> form> #fname{
     margin-left: 800px;
-    padding: 15px;
+    padding-bottom: 15px;
 width: 200px;
-border: none;
+padding: 15px;
 }
 .textbox .f> form> #submit{
     padding: 15px;
@@ -194,74 +220,131 @@ border: none;
 .heading3{
     text-align: center;
     padding-top: 2px;
+    font-size: 20px;
 }
 .payments{
     padding-top: 100px;
     padding-left: 400px;
     display: flex;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .FREE{
     border: 2px solid #23A6F0;
     border-radius: 2%;
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 600px;
     padding: 50px;
+    text-align: center;
 }
 .paragraph1{
     padding-top: 20px;
+    text-align: center;
 }
 .zero{
 color: #23A6F0;
 padding-top: 20px;
 }
+.zero strong{
+    font-size: 30px;
+}
 .list1{
     padding-top: 20px;
-    text-decoration: none;
 }
-
-.button4{
-    padding-top: 20px;
+.list1>span{
+    color: black;
+}
+.list1>img{
+    width: 30px;
+    height: 30px;
+}
+.payments .FREE #button4 button{
+    padding: 20px;
+    width: 200px;
+    background: #23A6F0;
+    margin-top: 50px;
+     border: none;
+     border-radius: 2px;
+     color: white;
 }
 .STANDARD{ 
     border: 2px solid #23A6F0;
     border-radius: 2%;
-    width: 200px;
-    height: 430px;
+    width: 300px;
+    height: 630px;
     margin-top: -30px;
     padding: 50px;
     background-color: #252B42;
+    color: white;
+    text-align: center;
 }
 .paragraph2{
     padding-top: 20px;
+    color: white;
+    text-align: center;
 }
 .nine{
 color: #23A6F0;
 padding-top: 20px;
 }
-.button5{
+.nine strong{
+    font-size: 30px;
+}
+.list2{
     padding-top: 20px;
+}
+.list2>span{
+    color: white;
+}
+.list2>img{
+    width: 30px;
+    height: 30px;
+}
+.payments .STANDARD #button5 button {
+    padding: 20px;
+    width: 200px;
+    background: #23A6F0;
+    margin-top: 50px;
+     border: none;
+     border-radius: 2px;
+     color: white;
 }
 .PREMIUM{
     border: 2px solid #23A6F0;
     border-radius: 3%;
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 600px;
     padding: 50px;
+    text-align: center;
 }
 .paragraph3{
     padding-top: 20px;
+    text-align: center;
 }
 .ninety{
 color: #23A6F0;
 padding-top: 20px;
 }
-ul li{
-    
+.ninety strong{
+    font-size: 30px;
 }
-
-.button6{
+.list3{
     padding-top: 20px;
+}
+.list3>span{
+    color: black;
+}
+.list3>img{
+    width: 30px;
+    height: 30px;
+}
+.payments .PREMIUM #button6 button {
+    padding: 20px;
+    width: 200px;
+    background: #23A6F0;
+    margin-top: 50px;
+     border: none;
+     border-radius: 2px;
+     color: white;
 }
 .section6{
 background-color: #252B42;
@@ -286,6 +369,7 @@ font-size: 35px;
     float: right;
    margin-top: -200px;
   margin-left: 800px;
+
 }
 .section7{
     display: flex;
@@ -319,6 +403,7 @@ font-size: 35px;
 .consult{
     justify-content: center;
     display: flex;
+    flex-direction: row;
     padding-top: 250px;
 }
 .button7{
@@ -329,52 +414,20 @@ font-size: 35px;
     padding: 10px;
 }
 .abouts{
-    display: inline flex;
+    display: flex;
     flex-direction: row;
     text-decoration: none;
 list-style: none;
-justify-content: center;
+justify-content: space-between
 font-size: 20px;
 padding-top: 50px;
 }
 .abouts1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     font-size: 20px;
     padding: 50px;
 }
-.abouts2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 50px;
-}
-.abouts3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 50px;
-}
-.abouts4{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 50px;
-}
-.abouts5{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 50px;
-}
-
-
-
 .last{
     justify-content: center;
     padding: 30px;
